@@ -1,0 +1,54 @@
+.main-header {
+  width: 100%;
+  font-family: $font-roboto;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    @include container;
+    @include margin-center;
+  }
+
+  &__top {
+    padding-top: 26px;
+    padding-bottom: 9px;
+    background-color: #31353d;
+    min-height: 46px;
+    color: $color-dull-white;
+  }
+
+  &__top-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0.7px;
+
+    li:not(:last-of-type) {
+      margin-right: 25px;
+    }
+
+    a {
+      color: $color-dull-white;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+
+  &__dropdown {
+    margin-left: 5px;
+    font-weight: 500;
+    color: $color-white;
+  }
+
+  &__bottom {
+    min-height: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
