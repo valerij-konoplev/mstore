@@ -1,0 +1,19 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+@import 'button';
+@import 'header';
+@import 'main-nav';
+@import 'user-block';
+@import 'intro';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: $color-white;
+}

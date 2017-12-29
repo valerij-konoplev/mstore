@@ -1,0 +1,194 @@
+@mixin invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@mixin margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+//ICONS
+
+@mixin icon-arrow-right-black {
+  width: 8px;
+  height: 11px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-arrow-right-white {
+  width: 8px;
+  height: 11px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -11px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-behance {
+  width: 24px;
+  height: 16px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -22px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-comment {
+  width: 15px;
+  height: 13px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -38px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-data {
+  width: 15px;
+  height: 15px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -51px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-facebook {
+  width: 12px;
+  height: 20px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -66px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-free-shiping {
+  width: 31px;
+  height: 27px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -86px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-google {
+  width: 27px;
+  height: 17px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -113px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-instagram {
+  width: 19px;
+  height: 19px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -130px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-payment {
+  width: 36px;
+  height: 29px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -149px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-return {
+  width: 36px;
+  height: 22px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -178px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-search {
+  width: 18px;
+  height: 18px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-shopping-cart {
+  width: 22px;
+  height: 19px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -218px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-star-grey {
+  width: 14px;
+  height: 15px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -237px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-star-yellow {
+  width: 15px;
+  height: 15px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -252px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-support{
+  width: 33px;
+  height: 33px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -267px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-twitter {
+  width: 19px;
+  height: 15px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -300px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-user {
+  width: 19px;
+  height: 19px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -315px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-view {
+  width: 20px;
+  height: 20px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -334px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-wishlist {
+  width: 19px;
+  height: 17px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -354px;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-youtube {
+  width: 21px;
+  height: 15px;
+  background-image: $svg-sprite-dest;
+  background-position: 0 -371px;
+  background-repeat: no-repeat;
+}
