@@ -1,0 +1,49 @@
+.intro {
+  width: 100%;
+  min-height: 640px;
+  font-family: $font-open-sans;
+  background-image: url('../images/top-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+
+  &__container {
+    @include container;
+    @include margin-center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 115px;
+  }
+
+  &__slogan {
+    margin-top: 140px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: $color-dark-blue;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    width: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -3.6px;
+    color: $color-dark-blue;
+  }
+
+  &__desc {
+    font-family: $font-roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+}
