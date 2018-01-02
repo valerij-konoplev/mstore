@@ -445,3 +445,17 @@ template {
 [hidden] {
   display: none;
 }
+
+
+//Custom
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: $color-white;
+}
