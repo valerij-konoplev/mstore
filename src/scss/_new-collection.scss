@@ -1,0 +1,44 @@
+.new-collection {
+  @include container;
+  @include margin-center;
+  height: 260px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 48px 82px;
+  background-image: url('../images/features-3.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h2 {
+    margin: 0;
+    font-family: $font-roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.85;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #00c8c8;
+
+    span {
+      font-family: $font-roboto;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #f7941d;
+    }
+  }
+
+  p {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    max-width: 580px;
+    font-family: $font-roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: $color-text-primary;
+    letter-spacing: 1.2px;
+  }
+}

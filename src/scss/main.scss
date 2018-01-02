@@ -1,6 +1,6 @@
-@import 'normalize';
 @import 'variables';
 @import 'mixins';
+@import 'normalize';
 @import 'button';
 @import 'header';
 @import 'main-nav';
@@ -8,14 +8,4 @@
 @import 'intro';
 @import 'garanties';
 @import 'features';
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  background-color: $color-white;
-}
+@import 'new-collection'
