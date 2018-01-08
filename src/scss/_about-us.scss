@@ -1,0 +1,59 @@
+.about-us {
+  width: 1170px;
+  @include margin-center;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  background-color: #87dac9;
+
+  &__text {
+    position: relative;
+    padding: 65px 94px;
+
+    h2 {
+      margin: 0;
+      margin-bottom: 38px;
+      position: relative;
+      font-family: $font-roboto;
+      font-size: 30px;
+      font-weight: 700;
+      color: #31353d;
+      text-align: center;
+      line-height: 1;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+
+      &::after {
+        content: "";
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -15px;
+        width: 50px;
+        height: 1px;
+        background-color: #5a6273;
+      }
+    }
+
+    p {
+      margin: 0;
+      margin-bottom: 40px;
+      font-family: $font-roboto;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.7px;
+      font-weight: 300;
+      letter-spacing: 1.2px;
+      text-align: center;
+      line-height: 36px;
+    }
+
+    a {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+}
