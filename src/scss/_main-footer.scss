@@ -1,0 +1,146 @@
+.main-footer {
+  background-color: #383d44;
+
+  &__container {
+    @include container;
+    @include margin-center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contact {
+    padding: 35px;
+    width: 370px;
+
+    h2 {
+      margin: 0;
+      margin-top: 14px;
+      margin-bottom: 25px;
+      font-size: 0;
+    }
+
+    p {
+      margin-bottom: 35px;
+      font-family: $font-roboto;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.9px;
+      color: $color-dull-white;
+    }
+
+    &-list {
+      list-style: none;
+      margin: 0;
+      margin-bottom: 55px;
+      padding: 0;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      color: $color-white;
+      letter-spacing: 0.9px;
+
+      span {
+        color: #868686;
+      }
+    }
+  }
+
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+    font-size: 0;
+    list-style: none;
+
+    li:hover {
+      opacity: 0.75;
+      cursor: pointer;
+    }
+
+    li:active {
+      opacity: 0.3;
+      cursor: pointer;
+    }
+  }
+
+  &__facebook {
+    @include icon-facebook;
+  }
+
+  &__twitter {
+    @include icon-twitter;
+  }
+
+  &__instagram {
+    @include icon-instagram;
+  }
+
+  &__youtube {
+    @include icon-youtube;
+  }
+
+  &__google-plus {
+    @include icon-google;
+  }
+
+  &__behance {
+    @include icon-behance;
+  }
+
+  &__info {
+    width: 295px;
+    margin-top: 60px;
+    margin-right: 45px;
+
+    h2 {
+      width: 100%;
+      margin: 0;
+      font-family: $font-roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      color: $color-white;
+    }
+
+    ul {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 35px;
+      height: 205px;
+
+      &:not(:last-of-type) {
+        margin-right: 85px;
+      }
+
+      a {
+        font-family: $font-roboto;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0.9px;
+        color: $color-dull-white;
+        text-decoration: none;
+        line-height: 4;
+
+        &:hover {
+          opacity: 0.75;
+        }
+
+        &:active {
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+
+  &__map {
+    padding-top: 95px;
+  }
+}
