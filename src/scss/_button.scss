@@ -35,3 +35,11 @@
   }
 
 }
+
+.button--white {
+  color: $color-white;
+
+  &::after {
+    @include icon-arrow-right-white;
+  }
+}

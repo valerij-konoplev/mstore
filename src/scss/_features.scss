@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-between;
 
+  h2 {
+    @include invisible;
+  }
+
   &__item {
     width: 570px;
     height: 400px;
