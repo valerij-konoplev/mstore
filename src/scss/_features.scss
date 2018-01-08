@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
 
-  h2 {
-    @include invisible;
+  &__heading {
+    font-size: 0;
   }
 
   &__item {
