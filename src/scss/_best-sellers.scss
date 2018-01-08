@@ -1,0 +1,56 @@
+.best-sellers {
+  @include container;
+  @include margin-center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+  &__sale {
+    position: relative;
+    width: 270px;
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/item-sale.png');
+
+    span {
+      margin-top: 20px;
+      font-family: $font-roboto;
+      color: #00c8c8;
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: -1.4px;
+      text-transform: uppercase;
+    }
+
+    span + &-percentages {
+      align-self: flex-end;
+      padding-right: 40px;
+      margin-top: -8px;
+      font-size: 65px;
+      font-weight: 400;
+      letter-spacing: -6px;
+    }
+
+    a {
+      position: absolute;
+      right: 80px;
+      top: 80px;
+      font-family: $font-roboto;
+      font-size: 12px;
+      font-weight: 300;
+      color: $color-text-primary-darker;
+      text-decoration: underline;
+      text-transform: uppercase;
+
+      &:hover {
+        opacity: 0.75;
+      }
+
+      &:active {
+        opacity: 0.3;
+      }
+    }
+  }
+}
